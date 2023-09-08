@@ -1,0 +1,80 @@
+CRITICAL - 2022-08-21 22:57:51 --> Undefined property: App\Controllers\Manajemen_Detail_Data_Project::$input
+in APPPATH\Controllers\Manajemen_Detail_Data_Project.php on line 103.
+ 1 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Manajemen_Detail_Data_Project::$input', 'APPPATH\\Controllers\\Manajemen_Detail_Data_Project.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Detail_Data_Project->downloads()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Detail_Data_Project))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 22:58:05 --> Undefined property: App\Controllers\Manajemen_Detail_Data_Project::$zip
+in APPPATH\Controllers\Manajemen_Detail_Data_Project.php on line 110.
+ 1 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Manajemen_Detail_Data_Project::$zip', 'APPPATH\\Controllers\\Manajemen_Detail_Data_Project.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Detail_Data_Project->downloads()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Detail_Data_Project))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 23:04:26 --> Undefined property: App\Controllers\Manajemen_Detail_Data_Project::$load
+in APPPATH\Controllers\Manajemen_Detail_Data_Project.php on line 104.
+ 1 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Manajemen_Detail_Data_Project::$load', 'APPPATH\\Controllers\\Manajemen_Detail_Data_Project.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Detail_Data_Project->downloads()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Detail_Data_Project))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 23:12:04 --> Undefined property: App\Controllers\Manajemen_Detail_Data_Project::$load
+in APPPATH\Controllers\Manajemen_Detail_Data_Project.php on line 12.
+ 1 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Manajemen_Detail_Data_Project::$load', 'APPPATH\\Controllers\\Manajemen_Detail_Data_Project.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Manajemen_Detail_Data_Project->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 23:16:57 --> Undefined property: App\Controllers\Manajemen_Detail_Data_Project::$load
+in APPPATH\Controllers\Manajemen_Detail_Data_Project.php on line 12.
+ 1 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Manajemen_Detail_Data_Project::$load', 'APPPATH\\Controllers\\Manajemen_Detail_Data_Project.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Manajemen_Detail_Data_Project->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-21 23:35:06 --> Unknown column 'id_proyek' in 'where clause'
+CRITICAL - 2022-08-21 23:35:06 --> Unknown column 'id_proyek' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM detail_data_project where id_proyek=19', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM detail_data_project where id_proyek=19')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM detail_data_project where id_proyek=19')
+ 4 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(103): CodeIgniter\Database\BaseConnection->query('SELECT * FROM detail_data_project where id_proyek=19')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Detail_Data_Project->downloads()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Detail_Data_Project))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 23:37:15 --> File not found: C:\xampp\htdocs\drive\public\file/BUKU MANUAL SURVEY PJU 25052022.pdf
+in SYSTEMPATH\Files\File.php on line 46.
+ 1 SYSTEMPATH\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('FCPATH\\file/BUKU MANUAL SURVEY PJU 25052022.pdf')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(97): CodeIgniter\Files\File->__construct('FCPATH\\file/BUKU MANUAL SURVEY PJU 25052022.pdf', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(779): CodeIgniter\HTTP\DownloadResponse->setFilePath('FCPATH\\file/BUKU MANUAL SURVEY PJU 25052022.pdf')
+ 4 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(105): CodeIgniter\HTTP\Response->download('BUKU MANUAL SURVEY PJU 25052022.pdf', null)
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Detail_Data_Project->downloads()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Detail_Data_Project))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 23:37:59 --> unlink(C:\xampp\htdocs\drive\public\file/IMG-20220710-WA0005.jpg): No such file or directory
+in APPPATH\Controllers\Manajemen_Detail_Data_Project.php on line 89.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\drive\\public\\file/IMG-20220710-WA0005.jpg): No such file or directory', 'APPPATH\\Controllers\\Manajemen_Detail_Data_Project.php', 89)
+ 2 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(89): unlink('FCPATH\\file/IMG-20220710-WA0005.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Detail_Data_Project->hapus()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Detail_Data_Project))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-21 23:54:23 --> Cannot access protected property App\Controllers\Manajemen_Detail_Data_Project::$response
+in APPPATH\Controllers\Manajemen_Detail_Data_Project.php on line 104.
+ 1 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(110): App\Controllers\down(Object(App\Controllers\Manajemen_Detail_Data_Project), '19 - 12 - 2022-07-24 03.45.29am - ktp_User_Chaakra_Consulting1.pdf')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Detail_Data_Project->downloads()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Detail_Data_Project))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,109 @@
+CRITICAL - 2022-08-22 00:08:35 --> Undefined property: App\Controllers\Manajemen_Detail_Data_Project::$zip
+in APPPATH\Controllers\Manajemen_Detail_Data_Project.php on line 112.
+ 1 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Manajemen_Detail_Data_Project::$zip', 'APPPATH\\Controllers\\Manajemen_Detail_Data_Project.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Detail_Data_Project->downloads()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Detail_Data_Project))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-22 00:18:02 --> Call to undefined function App\Controllers\zipFilesAndDownload()
+in APPPATH\Controllers\Manajemen_Detail_Data_Project.php on line 118.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Detail_Data_Project->downloads()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Detail_Data_Project))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-22 01:10:42 --> unlink(C:\xampp\htdocs\drive\public\/Proyek Perhubungan Gresik (2023).zip): No such file or directory
+in APPPATH\Controllers\Manajemen_Detail_Data_Project.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\drive\\public\\/Proyek Perhubungan Gresik (2023).zip): No such file or directory', 'APPPATH\\Controllers\\Manajemen_Detail_Data_Project.php', 140)
+ 2 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(140): unlink('FCPATH\\/Proyek Perhubungan Gresik (2023).zip')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Detail_Data_Project->downloads()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Detail_Data_Project))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-22 01:11:19 --> unlink(C:\xampp\htdocs\drive\public\Proyek Perhubungan Gresik (2023).zip): No such file or directory
+in APPPATH\Controllers\Manajemen_Detail_Data_Project.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\drive\\public\\Proyek Perhubungan Gresik (2023).zip): No such file or directory', 'APPPATH\\Controllers\\Manajemen_Detail_Data_Project.php', 140)
+ 2 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(140): unlink('FCPATH\\Proyek Perhubungan Gresik (2023).zip')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Detail_Data_Project->downloads()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Detail_Data_Project))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-22 01:13:23 --> Invalid or uninitialized Zip object
+in APPPATH\Controllers\Manajemen_Detail_Data_Project.php on line 117.
+ 1 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(117): ZipArchive->close()
+ 2 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(140): App\Controllers\zipFilesAndDownload([...], 'FCPATH\\Proyek Perhubungan Gresik (2023).zip', 'FCPATH\\file')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Detail_Data_Project->downloads()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Detail_Data_Project))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-22 01:13:42 --> readfile(PJU (20222).zip): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Manajemen_Detail_Data_Project.php on line 123.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(PJU (20222).zip): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Manajemen_Detail_Data_Project.php', 123)
+ 2 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(123): readfile('PJU (20222).zip')
+ 3 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(140): App\Controllers\zipFilesAndDownload([...], 'PJU (20222).zip', 'FCPATH\\file')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Detail_Data_Project->downloads()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Detail_Data_Project))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-22 01:14:15 --> readfile(PJU (20222).zip): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Manajemen_Detail_Data_Project.php on line 123.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(PJU (20222).zip): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Manajemen_Detail_Data_Project.php', 123)
+ 2 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(123): readfile('PJU (20222).zip')
+ 3 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(140): App\Controllers\zipFilesAndDownload([...], 'PJU (20222).zip', 'FCPATH\\file')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Detail_Data_Project->downloads()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Detail_Data_Project))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-22 01:14:30 --> readfile(Proyek Perhubungan Gresik (2023).zip): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Manajemen_Detail_Data_Project.php on line 123.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(Proyek Perhubungan Gresik (2023).zip): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Manajemen_Detail_Data_Project.php', 123)
+ 2 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(123): readfile('Proyek Perhubungan Gresik (2023).zip')
+ 3 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(140): App\Controllers\zipFilesAndDownload([...], 'Proyek Perhubungan Gresik (2023).zip', 'FCPATH\\file')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Detail_Data_Project->downloads()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Detail_Data_Project))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-22 01:18:06 --> unlink(C:\xampp\htdocs\drive\public\file\file-20 - 12 - 2022-07-24 05.04.18am - BUKU MANUAL SURVEY PJU 25052022.pdf): No such file or directory
+in APPPATH\Controllers\Manajemen_Data_Project.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\drive\\public\\file\\file-20 - 12 - 2022-07-24 05.04.18am - BUKU MANUAL SURVEY PJU 25052022.pdf): No such file or directory', 'APPPATH\\Controllers\\Manajemen_Data_Project.php', 46)
+ 2 APPPATH\Controllers\Manajemen_Data_Project.php(46): unlink('FCPATH\\file\\file-20 - 12 - 2022-07-24 05.04.18am - BUKU MANUAL SURVEY PJU 25052022.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Data_Project->hapus()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Data_Project))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-22 01:19:20 --> unlink(C:\xampp\htdocs\drive\public\\file20 - 12 - 2022-07-24 05.04.18am - BUKU MANUAL SURVEY PJU 25052022.pdf): No such file or directory
+in APPPATH\Controllers\Manajemen_Data_Project.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\drive\\public\\\\file20 - 12 - 2022-07-24 05.04.18am - BUKU MANUAL SURVEY PJU 25052022.pdf): No such file or directory', 'APPPATH\\Controllers\\Manajemen_Data_Project.php', 46)
+ 2 APPPATH\Controllers\Manajemen_Data_Project.php(46): unlink('FCPATH\\\\file20 - 12 - 2022-07-24 05.04.18am - BUKU MANUAL SURVEY PJU 25052022.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Data_Project->hapus()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Data_Project))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-22 01:22:55 --> readfile(2022 (PJU).zip): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Manajemen_Detail_Data_Project.php on line 123.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(2022 (PJU).zip): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Manajemen_Detail_Data_Project.php', 123)
+ 2 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(123): readfile('2022 (PJU).zip')
+ 3 APPPATH\Controllers\Manajemen_Detail_Data_Project.php(140): App\Controllers\zipFilesAndDownload([], '2022 (PJU).zip', 'FCPATH\\file')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Detail_Data_Project->downloads()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Detail_Data_Project))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-22 01:50:20 --> unlink(C:\xampp\htdocs\drive\public\file\file-21 - 12 - 2022-08-22 01.23.17am - Data Penduduk.csv): No such file or directory
+in APPPATH\Controllers\Project_Saya.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\drive\\public\\file\\file-21 - 12 - 2022-08-22 01.23.17am - Data Penduduk.csv): No such file or directory', 'APPPATH\\Controllers\\Project_Saya.php', 50)
+ 2 APPPATH\Controllers\Project_Saya.php(50): unlink('FCPATH\\file\\file-21 - 12 - 2022-08-22 01.23.17am - Data Penduduk.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Project_Saya->hapus()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project_Saya))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

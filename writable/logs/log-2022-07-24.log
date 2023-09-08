@@ -1,0 +1,173 @@
+CRITICAL - 2022-07-24 01:07:59 --> Undefined property: stdClass::$id_pembuat
+in APPPATH\Views\manajemen_data_project.php on line 171.
+ 1 APPPATH\Views\manajemen_data_project.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_pembuat', 'APPPATH\\Views\\manajemen_data_project.php', 171)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manajemen_data_project.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('manajemen_data_project', [], true)
+ 5 APPPATH\Controllers\Project_Saya.php(20): view('manajemen_data_project', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Project_Saya->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project_Saya))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-24 01:08:58 --> Undefined property: stdClass::$id_pembuat
+in APPPATH\Views\manajemen_data_project.php on line 171.
+ 1 APPPATH\Views\manajemen_data_project.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_pembuat', 'APPPATH\\Views\\manajemen_data_project.php', 171)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manajemen_data_project.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('manajemen_data_project', [], true)
+ 5 APPPATH\Controllers\Project_Saya.php(20): view('manajemen_data_project', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Project_Saya->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project_Saya))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-24 01:47:54 --> Invalid file: manajemen_permision.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('manajemen_permision.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('manajemen_permision', [], true)
+ 3 APPPATH\Controllers\Manajemen_Permision.php(20): view('manajemen_permision', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Permision->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Permision))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-24 01:48:23 --> Undefined property: stdClass::$tahun
+in APPPATH\Views\manajemen_permision.php on line 114.
+ 1 APPPATH\Views\manajemen_permision.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tahun', 'APPPATH\\Views\\manajemen_permision.php', 114)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manajemen_permision.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('manajemen_permision', [], true)
+ 5 APPPATH\Controllers\Manajemen_Permision.php(20): view('manajemen_permision', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Permision->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Permision))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-24 02:01:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-07-24 02:01:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM detail_data_project where id_project=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM detail_data_project where id_project=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM detail_data_project where id_project=')
+ 4 APPPATH\Controllers\Manajemen_Data_Project.php(44): CodeIgniter\Database\BaseConnection->query('SELECT * FROM detail_data_project where id_project=')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Data_Project->hapus()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Data_Project))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-24 02:02:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-07-24 02:02:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM permisions_project where id=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM permisions_project where id=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM permisions_project where id=')
+ 4 APPPATH\Controllers\Manajemen_Permision.php(35): CodeIgniter\Database\BaseConnection->query('DELETE FROM permisions_project where id=')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Permision->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Permision))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-24 02:52:24 --> Unknown column 'id_project' in 'where clause'
+CRITICAL - 2022-07-24 02:52:24 --> Unknown column 'id_project' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM data_project where id_project=20', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM data_project where id_project=20')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM data_project where id_project=20')
+ 4 APPPATH\Controllers\Manajemen_Permision.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM data_project where id_project=20')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Permision->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Permision))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-24 02:52:45 --> Unknown column 'id_project' in 'where clause'
+CRITICAL - 2022-07-24 02:52:45 --> Unknown column 'id_project' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM data_project where id_project=20', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM data_project where id_project=20')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM data_project where id_project=20')
+ 4 APPPATH\Controllers\Manajemen_Permision.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM data_project where id_project=20')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Permision->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Permision))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-24 02:53:35 --> Undefined variable $project
+in APPPATH\Views\manajemen_permision.php on line 121.
+ 1 APPPATH\Views\manajemen_permision.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $project', 'APPPATH\\Views\\manajemen_permision.php', 121)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manajemen_permision.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('manajemen_permision', [], true)
+ 5 APPPATH\Controllers\Manajemen_Permision.php(33): view('manajemen_permision', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Permision->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Permision))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-24 02:57:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.id as id_users FROM permisions_project a LEFT JOIN users b ON a.`id_user`=b....' at line 1
+CRITICAL - 2022-07-24 02:57:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.id as id_users FROM permisions_project a LEFT JOIN users b ON a.`id_user`=b....' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*,b.fullname.b.id as id_users FROM permisions_project a LEFT JOIN users b ON a.`id_user`=b.`id` WHERE id_project=20', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*,b.fullname.b.id as id_users FROM permisions_project a LEFT JOIN users b ON a.`id_user`=b.`id` WHERE id_project=20')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*,b.fullname.b.id as id_users FROM permisions_project a LEFT JOIN users b ON a.`id_user`=b.`id` WHERE id_project=20')
+ 4 APPPATH\Controllers\Manajemen_Permision.php(27): CodeIgniter\Database\BaseConnection->query('SELECT a.*,b.fullname.b.id as id_users FROM permisions_project a LEFT JOIN users b ON a.`id_user`=b.`id` WHERE id_project=20')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Manajemen_Permision->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manajemen_Permision))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-24 03:41:04 --> Undefined property: stdClass::$nama
+in APPPATH\Controllers\Beranda.php on line 39.
+ 1 APPPATH\Controllers\Beranda.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'APPPATH\\Controllers\\Beranda.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Beranda->coba()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-24 03:53:25 --> Undefined property: stdClass::$ukuran_file
+in APPPATH\Views\manajemen_detail_data_project.php on line 170.
+ 1 APPPATH\Views\manajemen_detail_data_project.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ukuran_file', 'APPPATH\\Views\\manajemen_detail_data_project.php', 170)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manajemen_detail_data_project.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('manajemen_detail_data_project', [], true)
+ 5 APPPATH\Controllers\Detail_Project_Saya.php(41): view('manajemen_detail_data_project', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Detail_Project_Saya->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail_Project_Saya))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-24 03:54:23 --> Undefined property: stdClass::$ukuran_file
+in APPPATH\Views\manajemen_detail_data_project.php on line 170.
+ 1 APPPATH\Views\manajemen_detail_data_project.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ukuran_file', 'APPPATH\\Views\\manajemen_detail_data_project.php', 170)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manajemen_detail_data_project.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('manajemen_detail_data_project', [], true)
+ 5 APPPATH\Controllers\Detail_Project_Saya.php(41): view('manajemen_detail_data_project', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Detail_Project_Saya->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail_Project_Saya))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-24 04:10:51 --> Undefined property: CodeIgniter\View\View::$db
+in APPPATH\Views\manajemen_data_project.php on line 186.
+ 1 APPPATH\Views\manajemen_data_project.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$db', 'APPPATH\\Views\\manajemen_data_project.php', 186)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manajemen_data_project.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('manajemen_data_project', [], true)
+ 5 APPPATH\Controllers\Project_Saya.php(20): view('manajemen_data_project', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Project_Saya->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project_Saya))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-24 04:32:19 --> Call to undefined function file_size()
+in APPPATH\Views\beranda.php on line 128.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('beranda', [], true)
+ 4 APPPATH\Controllers\Beranda.php(26): view('beranda', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Beranda->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
